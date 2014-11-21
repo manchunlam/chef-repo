@@ -1,6 +1,10 @@
 {
+  "berkshelf": {
+    "version": "3.2.1",
+    "ruby_version": "1.9.3-p551"
+  },
   "run_list": [
     "recipe[apt]",
-    "recipe[rbenv]"
+    "recipe[foo]"
   ]
 }
