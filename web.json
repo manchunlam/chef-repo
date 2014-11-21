@@ -1,0 +1,6 @@
+{
+  "mysql": { }
+  "run_list": [
+    "recipe[ruby]"
+  ]
+}
