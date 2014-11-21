@@ -1,6 +1,6 @@
 {
-  "mysql": { }
   "run_list": [
-    "recipe[ruby]"
+    "recipe[apt]",
+    "recipe[rbenv]"
   ]
 }
